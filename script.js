@@ -30,3 +30,5 @@ function signIn(user, pass) {
     alert("Sorry, I don't know you");
   }
 }
+
+signIn(userNamePrompt, passwordPrompt);
