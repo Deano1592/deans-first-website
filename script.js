@@ -3,6 +3,14 @@ const database = [
     username: "Deano",
     password: "1592",
   },
+  {
+    username: "Dillon",
+    password: "1234",
+  },
+  {
+    username: "Darren",
+    password: "9999",
+  },
 ];
 
 const newsFeed = [
@@ -24,7 +32,7 @@ const userNamePrompt = prompt("What's your usename?");
 const passwordPrompt = prompt("What's your password?");
 
 function signIn(user, pass) {
-  if (user === database[0].username && pass === database[0].password) {
+  if (user === database[i].username && pass === database[i].password) {
     console.log(newsFeed);
   } else {
     alert("Sorry, I don't know you");
